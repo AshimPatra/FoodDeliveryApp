@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                             FavouriteRestaurantsFragment()
                         )
                         .commit()
-                    supportActionBar?.title = "FavouriteRestaurants"
+                    supportActionBar?.title = "Favourite Restaurants"
                     drawerLayout.closeDrawers()
 
 
@@ -110,7 +110,7 @@ class MainActivity : AppCompatActivity() {
                             FaqsFragment()
                         )
                         .commit()
-                    supportActionBar?.title = "Faqs"
+                    supportActionBar?.title = "FAQs"
                     drawerLayout.closeDrawers()
 
 

@@ -26,17 +26,17 @@ class FaqsFragment : Fragment() {
     var faqsListInfo = arrayListOf<FrequentQuestion>()
 
     val questionList = arrayListOf<String>(
-        "Q1. How will the training be delivered?",
-        "Q2. what will be the timing of the training?",
-        "Q3. What is the duration of training?",
-        "q4. When can i start my training?"
+        "Q1. I don't remember my password?",
+        "Q2. what are your delivery hours?",
+        "Q3. How much time it's takes to deliver the order?",
+        "Q4. Do you Support bulk orders?"
 
     )
     val answerList = arrayListOf<String>(
-        "A1. You will be taught using pre-recorded videos and text tutorails.The training has quizzes,assignmnets,and tests to help you learn better.",
-        "A2. This will be an option provided in the navigation drawer to log out of the application. This will be a simple log out which redirects the user to the login page while clearing all the preferences stored. Make sure that after logout, if the user presses the back button then the app should exit and not take the user back to the home page",
-        "A3. The training duration is of 6 weeks",
-        "A4. You can choose your preferred batch date while signing up for the training program."
+        "A1. You have already created an account but you can't remember your password? Click on 'Login/Sign Up' at the top of the page. Then click on 'Forgot Password?'. Fill out your phone number and a password recovery will be sent to you by phone..",
+        "A2.  Our delivery hour is from 10:00 AM to 08:00 PM.",
+        "A3. Generally it takes between 45 minutes to 1 hour time to deliver the order. Due to long distance or heavy traffic, delivery might take few extra minutes.",
+        "A4. In order to provide all customers with a great selection and to ensure on-time delivery of your meal, we request you to order bulk quantity at least 24 hours in advance."
     )
 
 

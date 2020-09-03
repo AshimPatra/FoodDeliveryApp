@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".SplashActivity"
-    android:background="@color/colorPrimary">
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".SplashActivity"
 
+                android:background="@drawable/new2back">
 
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+android:background="@color/colourBackground">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
+        android:text="Swaadam"
         android:textColor="@color/colorWhite"
-        android:textSize="48sp"
+        android:textSize="50sp"
         android:layout_centerInParent="true"
         android:id="@+id/txtAppName"/>
 
@@ -23,8 +25,9 @@
         android:layout_below="@id/txtAppName"
         android:text="@string/app_slogan"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
-        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
         android:textColor="@color/colorWhite"/>
+</RelativeLayout>
 
 </RelativeLayout>

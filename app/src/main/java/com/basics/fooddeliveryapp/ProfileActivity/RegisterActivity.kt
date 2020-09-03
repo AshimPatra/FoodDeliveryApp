@@ -224,7 +224,7 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun setUpToolbar() {
         setSupportActionBar(toolbar)
-        supportActionBar?.title = "Menu"
+        supportActionBar?.title = "Register"
         supportActionBar?.setHomeButtonEnabled(true)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }

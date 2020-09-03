@@ -16,7 +16,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/btn_gradient"
             android:minHeight="?attr/actionBarSize"
             app:layout_scrollFlags="scroll|enterAlways"
             app:title="Menu"
@@ -58,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Place Order"
-        android:background="@drawable/shape_button"
+        android:background="@drawable/btn_gradient"
         android:layout_alignParentBottom="true"
         android:layout_margin="10dp"
         android:id="@+id/placeOrder"/>

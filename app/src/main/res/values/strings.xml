@@ -3,7 +3,6 @@
     <string name="hint_email">Enter your email</string>
     <string name="hint_user_name">Enter your Name</string>
     <string name="delivery_address">Enter Delivery Address</string>
-    <string name="forgot_password">Forgot Password?</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="hint_mobile_number">Mobile Number</string>
     <string name="hint_password">Password</string>
@@ -33,4 +32,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sign_up_now_btn_txt">Don\'t have account?Sign up now</string>
     <string name="app_slogan">Home made food</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="cruzer_cook">Cruzer Cook</string>
+    <string name="upload_image">Upload image</string>
 </resources>

@@ -12,7 +12,7 @@
         />
     <item
         android:id="@+id/myProfile"
-        android:title="@string/my_profile"
+        android:title="my profile"
         android:icon="@drawable/ic_profile"
         />
     <item

@@ -5,16 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.OrderPlacedActivity"
-    android:background="@color/colorPrimary">
 
+    android:background="@drawable/new2back">
 
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent"
+android:background="@color/colourBackground">\
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your order has been successfully placed!"
         android:layout_centerInParent="true"
         android:textSize="18sp"
+        android:id="@+id/textOrder"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enjoy Your Food"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textOrder"
+        android:textSize="18sp"
         android:id="@+id/textOrderPlaced"
+        android:textStyle="bold"
         android:textColor="@color/colorWhite"/>
 
 
@@ -28,5 +44,6 @@
         android:layout_margin="20dp"
         android:id="@+id/btnOrderConfirmed"
         />
+</RelativeLayout>
 
 </RelativeLayout>

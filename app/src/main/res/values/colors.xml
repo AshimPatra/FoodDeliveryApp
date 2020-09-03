@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#30ADA1</color>
-    <color name="colorPrimaryDark">#249D91</color>
-    <color name="colorAccent">#31AA9E</color>
+
+    <color name="colorAccent">#EE6C00</color>
     <color name="colorBlack">#424242</color>
     <color name="colorLabel">#616161</color>
     <color name="colorWhite">#ffff</color>
+    <color name="colourBackground">#AB363535</color>
+    <color name="startColour">#443C20</color>
+    <color name="endColour">#e8a564</color>
+    <color name="tingoColour">#AC7A4A</color>
+    <color name="colorPrimary">#EE6C00</color>
+    <color name="colorPrimaryDark">#C23E10</color>
+
 </resources>
